@@ -16,7 +16,7 @@ public class EmployeeRepository {
 	public EmployeeRepository()
 	{
 		try {
-			File f = new File("/Users/admin/Documents/cs/in.txt");
+			File f = new File("");
 	        FileReader fr = new FileReader(f);
 	        BufferedReader br = new BufferedReader(fr);
 	        String line;
